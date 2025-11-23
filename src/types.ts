@@ -8,4 +8,6 @@ export interface BodyState {
   color: string;
   ref: React.MutableRefObject<Mesh | null>;
   shape?: "sphere" | "cube" | "dodecahedron";
+  radius?: number;
+  collisionRadius?: number;
 }

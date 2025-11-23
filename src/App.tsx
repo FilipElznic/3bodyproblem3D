@@ -1,4 +1,3 @@
-import React from "react";
 import { ThreeBodyScene } from "./components/ThreeBodyScene";
 
 function App() {
