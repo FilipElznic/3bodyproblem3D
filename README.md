@@ -38,10 +38,13 @@ Vite will print the local development URL (default `http://localhost:5173`). Hot
 
 ```
 src/
-  App.tsx                 # Entrypoint that renders the simulation canvas
-  components/
-    ThreeBodyScene.tsx    # Core scene, physics integrator, UI overlay
+  main.tsx                # React app entrypoint
+  App.tsx                 # Root component managing landing page / simulation state
+  index.css               # Global styles and Tailwind directives
   types.ts                # BodyState definition and shared types
+  components/
+    LandingPage.tsx       # Educational landing page with physics equations
+    ThreeBodyScene.tsx    # Core 3D scene, physics integrator, UI overlay
 ```
 
 ## Notes
